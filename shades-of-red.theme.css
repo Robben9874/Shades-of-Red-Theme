@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.05"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.10"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -2187,4 +2187,12 @@ div.control-group .shortcut-recorder input[type=text] {
     border-color: transparent;
     /* -webkit-box-shadow: -20px 0 #33373b,20px 0 #36393e,-20px -1px 0 0 #3e4146,-20px 1px 0 #3e4146,20px 1px 0 #3e4146,20px -1px 0 #3e4146; */
     box-shadow: -20px 0 #480000,20px 0 #480000,-20px -1px 0 0 #480000,-20px 1px 0 #480000,20px 1px 0 #480000,20px -1px 0 #480000;
+}
+
+/* FIXES */
+.layer {
+    background: transparent !important
+}
+.layers {
+    background: transparent !important
 }
