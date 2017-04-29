@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.10"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.15"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -650,17 +650,17 @@ body {
 .channel-members .invite-btn:hover {
     background-color: #4e1c1c;
 }
-#voice-connection {
+#rtc-connection {
     background: #2A0000;
 }
-#voice-connection-popout section {
+#rtc-connection-popout section {
     background-color: #1A0909;
     border: 1px solid #935959;
 }
-#voice-connection-popout hr {
+#rtc-connection-popout hr {
     border: 1px solid #935959;
 }
-#voice-connection-popout .debug-button {
+#rtc-connection-popout .debug-button {
     color: #832e2e;
 }
 .account .btn {
