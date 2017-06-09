@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.25"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.30"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -122,13 +122,8 @@
     border-bottom: none;
     margin: 10px -15px;
 }
-.user-popout .header {
-    border: 1px solid #935959;
+.bd-blue .user-popout .header {
     background: #110606;
-}
-.user-popout .header.streaming {
-    border: 1px solid #935959;
-    background: #000;
 }
 .user-popout .body {
     border-left: 1px solid #935959;
@@ -214,7 +209,12 @@
     background: linear-gradient(90deg, hsla(0, 0%, 100%, 0), #8A1111);
 }
 
+
 /*User Profile Modal*/
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+    font-size: 16px;
+    color: rgb(78, 78, 78);
+}
 #user-profile-modal .guilds .guild {
 	background: transparent !important;
     color: #924444 !important;
@@ -2097,12 +2097,6 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 /* Calls */
-#friends .friends-table .friends-row .friends-column-actions .friends-action {
-    background-color: #610202;
-}
-#friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
-    background-color: #560505;
-}
 .theme-dark .themed-popout .header {
     background-color: rgb(31, 2, 2);
     box-shadow: 0 2px 3px 0 rgba(0,0,0,.2);
@@ -2122,6 +2116,15 @@ div.control-group .shortcut-recorder input[type=text] {
     background-color: #580101;
     background-image: url(/assets/fa4d05fd4a7ce8459a7cf997a60338e8.png);
     box-shadow: inset 0 -4px 10px 0 rgba(0,0,0,.2);
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+    background-color: #582b2b;
+}
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+    background-color: #8a4444;
+}
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
+    background-color: #8a4444!important;
 }
 
 /* Group DMs */
@@ -2234,7 +2237,74 @@ div.control-group .shortcut-recorder input[type=text] {
 .wrapper-2ldvyE {
     background-color: transparent;
 }
-
+.bd-blue .theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+    background-color: #cc0000;
+}
+.bd-blue .tooltip {
+    background-color: #c13a3a;
+}
+.bd-blue .tooltip.tooltip-right:after {
+    border-right-color: #c13a3a;
+}
+.bd-blue .tooltip.tooltip-top:after {
+    border-top-color: #c13a3a;
+}
+.bd-blue .tooltip.tooltip-left:after {
+    border-left-color: #c13a3a;
+}
+.bd-blue .tooltip.tooltip-bottom:after {
+    border-bottom-color: #c13a3a	;
+}
+.search-bar.search-bar-light .search-bar-inner {
+    background-color: rgba(199, 209, 216, 0);
+    border: 1px solid transparent;
+    border-radius: 3px!important;
+}
+.bda-dark .emoji-picker .category {
+    background-color: #160707 !important;
+}
+.bd-blue .need-help-modal .header {
+    background-color: #110606;
+}
+.bd-blue .private-channel-recipients-invite .footer button {
+    background-color: #c13a3a;
+}
+.theme-dark .ui-scroller-wrap.ui-scroller-track>.scroller::-webkit-scrollbar-track, .theme-light .ui-scroller-themed.ui-scroller-dark.ui-scroller-track>.scroller::-webkit-scrollbar-track, .ui-scroller-themed.ui-scroller-dark.ui-scroller-track>.scroller::-webkit-scrollbar-track {
+    background-color: #210c0c;
+}
+.bd-blue .private-channel-recipients-invite .footer button:disabled:hover {
+    background-color: #611818;
+}
+.ui-scroller-themed.ui-scroller-ghost-hairline .scroller::-webkit-scrollbar-thumb {
+    background: #820202;
+}
+.theme-dark .ui-scroller-wrap .scroller::-webkit-scrollbar-thumb, .theme-light .ui-scroller-themed.ui-scroller-dark .scroller::-webkit-scrollbar-thumb, .ui-scroller-themed.ui-scroller-dark .scroller::-webkit-scrollbar-thumb {
+    background-color: #935959;
+    border-color: transparent;
+}
+.private-channels .channel:hover a {
+    color: #fff;
+    background-color: #3f3636;
+}
+.bd-server-card.bd-server-card-pinned:after {
+    background: #c13a3a;
+}
+.bd-blue .ui-button.brand.filled {
+    background-color: #c13a3a;
+}
+.popout-menu {
+    background: #a50909;
+}
+.popout-menu .popout-menu-item-label {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #cecece;
+}
+.quick-message {
+    border: 1px solid #935959;
+    background: rgba(90, 0, 0, 0.58);
+}
 
 /*NEW .account */
 .container-iksrDt {
