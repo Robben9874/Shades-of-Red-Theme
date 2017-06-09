@@ -2305,6 +2305,89 @@ div.control-group .shortcut-recorder input[type=text] {
     border: 1px solid #935959;
     background: rgba(90, 0, 0, 0.58);
 }
+.chat .new-messages-bar button:first-child {
+    font-size: 14px;
+    -webkit-box-flex: 1;
+    -ms-flex: 1;
+    flex: 1;
+    background-color: #540000;
+}
+.chat .new-messages-bar button:last-child {
+    color: rgba(255,255,255,0.5);
+    background-color: #540000;
+}
+.bd-blue .chat .has-more button {
+    color: #969696;
+}
+.colorDefaultText-2v6rRX, .colorDefaultVoice-1x4dEl, .colorHoveredText-1CsxK1, .colorHoveredVoice-1P3kui, .colorLockedText-2onHWv, .colorLockedVoice-2VCSgk, .colorSelectedText-3YhFC6, .colorSelectedVoice-ieXC3Z, .colorUnreadText-1KwCnP, .colorUnreadVoice-1Ztv9I {
+    fill: #d07878;
+}
+.unread-23Kvxk {
+    background-color: #935959;
+}
+.bd-blue .chat .new-messages-bar:hover {
+    background-color: transparent;
+}
+.container-3lnMWU {
+    background: rgb(6, 0, 0);
+    border-bottom: 1px solid #36393f;
+    border-top: 1px dotted #803e41;
+}
+.content-region .CodeMirror, .content-region .CodeMirror-scroll {
+    max-height: calc(95vh - 165px);
+    min-height: calc(95vh - 165px);
+    height: auto;
+    background-color: #1d0000;
+}
+.CodeMirror-gutter, .CodeMirror-gutters, .CodeMirror-linenumber, .CodeMirror-scroll, .CodeMirror-sizer {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    background-color: #1d0000;
+}
+.content-region .CodeMirror, .content-region .cm-s-material .CodeMirror-gutters, #bd-customcss-detach-container .CodeMirror, #bd-customcss-detach-container .cm-s-material .CodeMirror-gutters {
+    background: #1d0000!important;
+}
+.cm-s-material .CodeMirror-linenumber {
+    color: #ff0000;
+}
+.content-region #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls {
+    background: #1d0000;
+    color: #FFF;
+    border: none;
+    box-shadow: 0 1px 0 0 #36393f inset;
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover, .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+    background: #750000;
+}
+.ui-standard-sidebar-view #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button {
+    margin: 0;
+    width: 100px;
+    background: #bb0000;
+    color: #FFF;
+    height: 26px;
+    font-weight: 600;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+.bd-blue .bd-pfbtn {
+    background: #c13a3a;
+}
+.theme-dark .add-game-popout {
+    background-color: #520000;
+}
+.buttonBrandFilled-3Mv0Ra {
+    color: #fff;
+    background-color: #da7272;
+}
+.theme-dark .ui-select .Select-menu-outer {
+    border-color: #202225;
+    box-shadow: 0 1px 5px 0 rgba(0,0,0,.3);
+    background: #630000;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #935959 !important;
+    border-radius: 10px;
+}
 
 /*NEW .account */
 .container-iksrDt {
