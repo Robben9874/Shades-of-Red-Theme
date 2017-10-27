@@ -1,4 +1,4 @@
-//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.30"}*//
+//META{"name":"Shades_of_Red","description":"great colors of red collide in my first theme.","author":"True Prominency","version":"3.50"}*//
 
 /*Public Servers*/
 .bda-dark #pubs-header {
@@ -2387,6 +2387,24 @@ div.control-group .shortcut-recorder input[type=text] {
 ::-webkit-scrollbar-thumb {
     background-color: #935959 !important;
     border-radius: 10px;
+}
+ .container-2OU7Cz, .theme-dark .title-qAcLxz, .channels-3g2vYe, .theme-dark .chat form, .theme-dark .headerBar-cxbhPD {
+    background-color: transparent;
+}
+
+css.theme-dark .title-qAcLxz, .channels-3g2vYe {
+Background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+.titleWrapper-3Vi_wz {
+    Background-color: rgba(0, 0, 0, 0.8) !important;
+}
+
+	/* Main background and settings background */
+.app,
+.callout-backdrop {
+    background: url(INSERT URL) !important;
+    background-size: cover !important;
 }
 
 /*NEW .account */
